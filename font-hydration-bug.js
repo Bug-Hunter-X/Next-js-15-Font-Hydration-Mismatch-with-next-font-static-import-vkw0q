@@ -1,0 +1,1 @@
+In Next.js 15, the use of `next/font` with `static` import can lead to unexpected hydration mismatches if the font files aren't properly served or cached. This often manifests as missing or incorrectly rendered fonts on the client-side, even though they appear correctly during server-side rendering (SSR).
